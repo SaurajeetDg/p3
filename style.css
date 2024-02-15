@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+    /* box-sizing: border-box; */
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* height: 100%; */
+    background:url(bg_.jpg);
+    background-size: cover;
+    /* align-items: center;
+    justify-content: center; */
+    /* padding: 10px 10px 10px 10px; */
+    padding-top: 100px;
+    padding-left: 470px;
+    border-radius: 10px;
+    
+}
+/* .mainpage{
+    background-image: url(bg_.jpg);
+    color: aqua;
+} */
+
+.btn a{
+    padding: 10px 90px;
+    margin: 30px 0px;
+    color: white;
+    text-decoration: none;
+    background-color:rgb(32, 118, 222);
+    border-radius: 5px;
+    text-align: center;
+    text-size-adjust: auto;
+    font-size: large;
+    
+}
+.btn{
+    color: white;
+    margin: 25px 10px;
+    padding: 15px;
+
+}
+.center{
+    /* background-color:white; */
+    width: 300px;
+    height: 400px;
+    /* filter: opacity(80%); */
+    /* justify-content: center; */
+    /* padding: ; */
+    border-radius: 10px;
+    
+}
+.sign{
+    padding: 10px 15px 50px 15px;
+    filter: opacity(80%);
+    background-color:white;
+    height: 250px;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.sign h4{
+    padding-left: 200px;
+    padding-top: 10px;
+    color: rgb(32, 118, 222);
+}
+
+.othersign{
+    background-color:rgb(32, 118, 222);
+    /* filter: opacity(0.8); */
+    /* opacity: 100%; */
+    height: 150px;
+    margin: 0;
+    border-radius: 10px;
+}
+.othersign h4{
+    margin: 0;
+    color: aliceblue;
+    /* padding: 20px 20px 10px 40px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 25px;
+    /* justify-content: right; */
+}
+img{
+    padding-left: 32px;
+    cursor: pointer;
+    opacity: 1;
+}
+.form{
+    padding-top: 15px;
+    position: relative;
+}
+input{
+    border-radius: 5px;
+    width: 235px;
+    height: 35px;
+    padding-left: 25px;
+    border: none
+}
+.form i{
+    position: absolute;
+    /* transform: translateY(70%); */
+    /* transform: translateX(10%); */
+    transform: translate(20%,50%);
+}
+.forget a{
+    text-decoration: none;
+    color: rgb(32, 118, 222);
+}
+.forget{
+    margin-left: 10px;
+    padding-left: 15px;
+}
